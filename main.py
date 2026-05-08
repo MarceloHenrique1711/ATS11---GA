@@ -8,7 +8,6 @@ def read_root():
 
 @app.get("/somar/{a}/{b}")
 def somar(a: int, b: int):
-    # Apenas retorna a soma dos dois números
     return {"resultado": a + b}
 
 @app.get("/multiplicar/{a}/{b}")
